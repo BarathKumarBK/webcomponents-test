@@ -23,7 +23,7 @@ $(document).ready(function(){
    		docHtml=docHtml
    		+'</div>'
    		+'</div>';
-   		$('#test').html(html);
+   		$('#test').html(docHtml);
    		showSlides(slideIndex);
 
 	}
@@ -31,7 +31,7 @@ $(document).ready(function(){
 });
 
 function onSlide(n) {
-	$('#test').html(html);
+	$('#test').html(docHtml);
   showSlides(slideIndex = n);
 }
 
